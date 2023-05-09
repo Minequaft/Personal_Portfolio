@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+    background-color: rgb(138, 224, 201);
+}
+
+#main_container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 2000px;
+    background-color: rgb(152, 215, 110);
+    border: solid 17px gray;
+}
+
+#nav {
+    position: absolute ;
+
+    margin-left: 333px;
+    margin-right: 0;
+    width: 668px;
+    height: 114px;
+    background-color: rgb(255, 252, 252);
+    border: solid 1px wheat;
+}
+
+.border_between_navs {
+list-style-type: none;
+border: solid 2px black;
+}
