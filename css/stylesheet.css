@@ -1,6 +1,10 @@
+ @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+ 
+
 body {
     margin: 0px;
     background-color: rgb(138, 224, 201);
+    font-family: 'PT Serif', serif;
 }
 
 #main_container {
@@ -12,10 +16,12 @@ body {
     margin-right: auto;
     width: 1000px;
     height: 2000px;
-    background-color: rgb(152, 215, 110);
+    background-color: rgb(199, 224, 181);
     border: solid 17px gray;
+    
 }
 
+/* Start of Navigation */
 #nav {
     width: 100%;
     height: 150px;
@@ -34,6 +40,15 @@ body {
 
 }
 
+li {
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+/* End of Navigation */
+
 #logoplacement {
     position: absolute;
     display: flex;
@@ -41,24 +56,53 @@ body {
     right: 0;
     top: 0;
     margin-left: auto;
-    margin-right: 657px;
+    margin-right: 655px;
     border-right: 3px solid black;
+    border-bottom: 3px solid black;
     
 }
+
+#PicOfMe {
+position: absolute;
+display: flex;
+left: 55px;
+top: 350px;
+border: 1px solid rgb(0, 0, 0);
+}
+
+
+/* Start of CSS for "about-me" section */
+#about-section {
+    position: absolute;
+    display: flex;
+    height: 500px;
+    width: 500px;
+    left: 420px;
+    top: 260px;
+
+}
+
+#h1 {
+    height: 400px;
+    width: 500px;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(172, 189, 188);
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+    
+}
+/* End of CSS for "about-me" section */
+
+
 
 ul {
     list-style-type: none;
     display: flex;
     align-items: center;
-    width: 80%;
+    margin-right: 30px;
+    width: 90%;
 }
 
-#homenav {
-position: absolute;
-justify-content: space-between;
-background-color: transparent ;
-border: 1px solid black;
-height: 100px;
-width: 100px;
-left: 100;
-}
+/* ^^^ Meant to be boxes around nav subtopics */
