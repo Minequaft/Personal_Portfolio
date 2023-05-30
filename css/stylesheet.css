@@ -17,7 +17,7 @@ body {
     width: 1000px;
     height: 2000px;
     background-color: rgb(199, 224, 181);
-    border: solid 17px gray;
+    border: solid 2px gray;
     
 }
 
@@ -67,7 +67,7 @@ li {
 position: absolute;
 display: flex;
 left: 55px;
-top: 350px;
+top: 335px;
 border: 1px solid rgb(0, 0, 0);
 }
 
@@ -113,9 +113,10 @@ border: 1px solid rgb(0, 0, 0);
     position: absolute;
     display: flex;
     top: 730px;
-    left: 420px;
+    left: 390px;
     height: 300px;
-    width: 50%;
+    width: 565px;
+    border: 1px solid black;
     background-color: blanchedalmond;
 }
 
@@ -132,22 +133,38 @@ border: 1px solid rgb(0, 0, 0);
     
 }
 
-#box1 {
+
+#Works-second-line {
     position: absolute;
     display: flex;
-    height: 100%;
-    width: 248px;
-    right: 252px;
-    background-color: black;
+    top: 1060px;
+    right: 55px;
+    left: 55px;
+    height: 390px;
+    width: 900px;
+    border: 1px solid black;
+    background-color: blanchedalmond;
 }
 
-#box2 {
+#contact {
     position: absolute;
     display: flex;
-    height: 100%;
-    width: 248px;
-    left: 252px;
-    background-color: rgb(228, 72, 72);
+    top: 1700px;
+    height: 300px;
+    width: 100%;
+    background-color: azure;
+}
+
+#portion_one {
+    position: absolute;
+    display: flex;
+    left: 0px;
+    top: 0px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#portion_two {
+    
 }
 
 ul {
