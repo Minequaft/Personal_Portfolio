@@ -132,6 +132,24 @@ border: 1px solid rgb(0, 0, 0);
     
 }
 
+#box1 {
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 248px;
+    right: 252px;
+    background-color: black;
+}
+
+#box2 {
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 248px;
+    left: 252px;
+    background-color: rgb(228, 72, 72);
+}
+
 ul {
     list-style-type: none;
     display: flex;
