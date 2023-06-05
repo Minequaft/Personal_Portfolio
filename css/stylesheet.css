@@ -23,11 +23,11 @@ body {
 
 /* Start of Navigation */
 #nav {
-    width: 100%;
+    width: 700px;
     height: 150px;
-    margin-left: 344px;
+    margin-left: 300px;
     border-bottom: 2px solid black;
-    background-color: aqua;
+    background-color: rgb(168, 229, 229);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -39,16 +39,6 @@ body {
     width: 100%;
     height: 127%;
 }
-
-li {
-    display: flex;
-    border: 1px solid black;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    font-size: 30px;
-}
-/* End of Navigation */
 
 #logoplacement {
     position: absolute;
@@ -62,6 +52,22 @@ li {
     border-bottom: 3px solid black;
     
 }
+
+li {
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+/* End of Navigation */
+
+
 
 #PicOfMe {
 position: absolute;
@@ -79,7 +85,7 @@ border: 1px solid rgb(0, 0, 0);
     height: 500px;
     width: 500px;
     left: 420px;
-    top: 260px;
+    top: 255px;
 
 }
 
@@ -102,7 +108,7 @@ border: 1px solid rgb(0, 0, 0);
     height: 300px;
     width: 300px;
     left: 55px;
-    top: 730px;
+    top: 780px;
     background-color: rgb(154, 205, 201);
     border: 1px solid rgb(0, 0, 0);
 }
@@ -112,13 +118,18 @@ border: 1px solid rgb(0, 0, 0);
 #Actual-spaces-for-works {
     position: absolute;
     display: flex;
-    top: 730px;
+    top: 780px;
     left: 390px;
     height: 300px;
     width: 565px;
-    border: 1px solid black;
     background-color: blanchedalmond;
 }
+
+#imggg {
+    border: 1px solid black;
+}
+
+
 
 #Works-main-text {
     position: absolute;
@@ -137,34 +148,53 @@ border: 1px solid rgb(0, 0, 0);
 #Works-second-line {
     position: absolute;
     display: flex;
-    top: 1060px;
+    top: 1160px;
     right: 55px;
     left: 55px;
     height: 390px;
     width: 900px;
-    border: 1px solid black;
     background-color: blanchedalmond;
 }
 
 #contact {
     position: absolute;
     display: flex;
+    text-align: start;
     top: 1700px;
     height: 300px;
     width: 100%;
+    transition-property: background-color color;
     background-color: azure;
+    color: black;
+    border: 1px solid black;
+    transition-duration: 2s;
+}
+
+#contact:hover {
+    background-color: rgb(66, 108, 142);
+    color: rgb(239, 239, 197);
+    transition-property: background-color color;
+    transition-duration: 5s;
 }
 
 #portion_one {
     position: absolute;
     display: flex;
-    left: 0px;
+    left: 55px;
     top: 0px;
-    border: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
 }
 
+
+
 #portion_two {
-    
+    position: absolute;
+    display: flex;
+    left: 500px;
+    right: 55px;
+    height: 300px;
+    width: auto;
 }
 
 ul {
@@ -174,5 +204,7 @@ ul {
     margin-right: 30px;
     width: 90%;
 }
+
+
 
 /* ^^^ Meant to be boxes around nav subtopics */
